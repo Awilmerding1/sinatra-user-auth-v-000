@@ -35,7 +35,6 @@ class ApplicationController < Sinatra::Base
     else 
       redirect '/sessions/login'
     end
-    puts params
   end
 
   get '/sessions/logout' do 
